@@ -4,6 +4,7 @@ import css from "../assets/css.png";
 import javasript from "../assets/javascript.png";
 import react from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
+import sql3 from "../assets/sql3.jpg";
 
 function Skills() {
   return (
@@ -45,8 +46,8 @@ function Skills() {
           </div>
 
           <div className="transition ease-out hover:scale-110">
-            <img className="w-20 mx-auto" src={html} alt="HTML icon" />
-            <p className="font-light py-2">HTML</p>
+            <img className="w-20 mx-auto" src={sql3} alt="SQL icon" />
+            <p className="font-light py-2">SQL</p>
           </div>
         </div>
       </div>

@@ -22,18 +22,21 @@ function Contact() {
           </p>
         </div>
         <input
+          required
           type="text"
           name="name"
           placeholder="Name"
           className="mb-1 p-1 bg-slate-400 placeholder:text-lime-300"
         />
         <input
+          required
           type="email"
           name="email"
           placeholder="E-mail"
           className="mt-2  p-1 bg-slate-400 placeholder:text-lime-300"
         />
         <textarea
+          required
           name="message"
           placeholder="Message"
           rows="8"
